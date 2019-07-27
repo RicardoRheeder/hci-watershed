@@ -1,0 +1,66 @@
+#app-container>.navbar {
+    a {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    #navbar span.icon {
+        padding: 4px 5px;
+        border: 3px solid #cfd2da;
+        margin-right: 10px;
+        border-radius: 35px;
+    }
+    .navbar-brand-icon {
+        margin-top: -6px;
+        padding: 3px 5px;
+        border: 3px solid #cfd2da;
+        margin-right: 10px;
+        border-radius: 35px;
+    }
+    .navbar-nav {
+        margin: 0px;
+        padding: 0px 2px;
+    }
+    .login-container {
+        padding: 6px 5px 0px 20px;
+        display: inline-block;
+        .login-text {
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+        .paws-icon {
+            display: inline-block;
+            width: 55px;
+            height: 19px;
+            background-size: 100%;
+            margin-right: 10px;
+            vertical-align: text-bottom;
+        }
+        // the base styling by the third part lib is set inline 
+        // so we have to manually override it !!
+        .google-login-button {
+            background-color: transparent !important;
+            padding: 0px !important;
+            cursor: pointer;
+            box-shadow: none !important;
+            display: inline-block !important;
+            vertical-align: middle;
+            &>span {
+                padding: 0px !important;
+                .icon {
+                    font-size: 25px;
+                    padding: 0px !important;
+                    border: none !important;
+                }
+            }
+        }
+    }
+
+    .input-group {
+        margin-top: 8px;
+        .inner-span {
+            margin-right: 10px;
+        }
+    }
+}
